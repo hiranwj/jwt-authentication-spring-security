@@ -1,3 +1,5 @@
+-- https://www.youtube.com/watch?v=4fk7_7DIZFQ
+
 GET
 http://localhost:8081
 Auth Type: Basic Auth
@@ -7,3 +9,11 @@ Password: <Using generated security password: 30af46fa-b1ca-4add-9b34-20285bdcb2
 
 POST
 http://localhost:8081/login
+Auth Type: No Auth
+
+
+GET
+http://localhost:8081/username?token=eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJoaXJhbndqIiwiaWF0IjoxNzM1MDY3MjA5LCJleHAiOjE3MzUwNjgxMDl9.TX0GPgVSd7kzfDT4dSU8PX2-kdT3eG_8uvRSrpNjzUI
+Auth Type: Basic Auth
+Username: user
+Password: <Using generated security password: 30af46fa-b1ca-4add-9b34-20285bdcb210>
