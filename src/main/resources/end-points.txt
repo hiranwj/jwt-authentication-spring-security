@@ -1,0 +1,9 @@
+GET
+http://localhost:8081
+Auth Type: Basic Auth
+Username: user
+Password: <Using generated security password: 30af46fa-b1ca-4add-9b34-20285bdcb210>
+
+
+POST
+http://localhost:8081/login
